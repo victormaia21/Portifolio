@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { FaPen } from "react-icons/fa";
 import { IoPeopleSharp } from "react-icons/io5";
 import { FaRegLightbulb } from "react-icons/fa";
@@ -7,7 +7,7 @@ import { IoMdTime } from "react-icons/io";
 import CountUp from 'react-countup';
 
 function Index() {
-    const [estatisticasPosition, setEstatisticasPosition] = useState(null);
+    const [estatisticasPosition, setEstatisticasPosition] = useState<number | null>(null);
     const [scrollPosition, setScrollPosition] = useState(0);
     
     useEffect(() => {

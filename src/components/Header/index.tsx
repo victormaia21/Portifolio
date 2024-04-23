@@ -7,11 +7,13 @@ function index() {
   const scroolSaibaMais = () => {
     const sobreSection = document.querySelector(".details");
     if(sobreSection) {
-      const scrool = sobreSection.offsetTop
-      window.scrollTo({
-        top:scrool,
-        behavior:"smooth"
-      })
+      if(sobreSection instanceof HTMLElement) {
+        const scrool = sobreSection.offsetTop;
+        window.scrollTo({
+          top: scrool,
+          behavior: "smooth"
+        });
+      }
     }
   }
   return (
