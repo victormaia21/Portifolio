@@ -34,21 +34,18 @@
         position: fixed;
         left: 50%;
         transform: translate(-50%,-50%);
-        width: 75%;
+        width: 50%;
         z-index: 3;
         animation: scroolCardClose 1s;
         animation-fill-mode: forwards;
         animation-direction: alternate;
 
         .card_img {
-            display: grid;
-            grid-template-columns: repeat(1, minmax(5em, 1fr));
             img {
                 width: 100%;
             }
         }
         
-
         .title_card {
             background: white;
             text-transform: uppercase;

@@ -26,7 +26,7 @@ function index() {
         <a href="https://github.com/victormaia21" target="_blank" className="github"><FaGithub /></a>
         <a href="https://www.linkedin.com/in/jo%C3%A3o-victor-benevenuto-maia-67a855225/" target="_blank" className="linkedin"><FaLinkedin /></a>
         <a href="https://www.instagram.com/victor.dev__/" target="_blank" className="instagram"><FaInstagram /></a>
-        <a href="https://w.app/SLA9ry" target="_blank" className="whatsapp"><FaWhatsapp /></a>
+        <a href="https://wa.me/+5568996028395?text=Oi%20victor" target="_blank" className="whatsapp"><FaWhatsapp /></a>
         <a href="https://www.facebook.com/profile.php?id=100007909956450" target="_blank" className="facebook"><FaFacebook /></a>
       </div>
       <img src={minhaFoto} alt="photo header" />

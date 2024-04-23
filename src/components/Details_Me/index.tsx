@@ -38,7 +38,7 @@ function index() {
                 </div>
                 <div>
                     <h2>WEBSITE:</h2>
-                    <p>victor.com</p>
+                    <p>https://portifolio-sdxp.vercel.app/</p>
                 </div>
                 <div>
                     <h2>EMAIL:</h2>

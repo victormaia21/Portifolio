@@ -1,6 +1,7 @@
 import "../../styles/index.scss";
 import Decorp from '../../assets/images/decorp.png';
 import Itroca from '../../assets/images/itroca.png';
+import Portifolio from '../../assets/images/portifolio.png';
 import { useState } from "react";
 import CardProjeto from '../CardProjeto/Index';
 
@@ -66,6 +67,19 @@ function Index() {
             >
               <img src={Itroca} alt="itroca" />
               {cardOpen ? null :<h1>ITROCA</h1>}
+            </div>
+            <div 
+              onClick={
+                () => cardDataOpen(
+                  `Site desenvolvido para minha apresentação diante dos possiveis recrutadores e clientes.`,
+                  "PORTIFOLIO",
+                  Portifolio,
+                  "https://portifolio-sdxp.vercel.app/"
+                )
+              }
+            >
+              <img src={Portifolio} alt="portifolio" />
+              {cardOpen ? null : <h1>PORTIFOLIO</h1>}
             </div>
         </div>
           <CardProjeto
