@@ -11,7 +11,7 @@ interface Props {
 
 function Index({ img, description, title, link, setIsOpen, isOpen } : Props) {
   return (
-    <div className={isOpen ? "card card_open" : "card"}>
+    (isOpen && <div className={isOpen ? "card card_open" : "card"}>
         <div className="card_img">
             <img src={img} alt="logo" />
         </div>
@@ -25,7 +25,7 @@ function Index({ img, description, title, link, setIsOpen, isOpen } : Props) {
             </button>
             <button onClick={() => setIsOpen(false)}>Fechar</button>
         </div>
-    </div>
+    </div>)
   )
 }
 
