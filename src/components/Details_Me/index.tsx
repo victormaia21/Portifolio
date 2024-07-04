@@ -42,7 +42,7 @@ function index() {
                 </div>
                 <div>
                     <h2>EMAIL:</h2>
-                    <p>jv1555550@gmail.com</p>
+                    <p>jvictorbmadm@gmail.com</p>
                 </div>
             </div>
         </div>
